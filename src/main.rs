@@ -1,3 +1,5 @@
+mod exercise;
+
 fn main() {
-    println!("Hello, world!");
+    exercise::variables::fire();
 }
