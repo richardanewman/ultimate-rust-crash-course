@@ -1,6 +1,9 @@
 mod exercise;
 
+use exercise::functions::run_function_exercise;
+use exercise::variables::fire;
+
 fn main() {
-    exercise::variables::fire();
-    exercise::functions::run_function_exercise();
+    fire();
+    run_function_exercise();
 }
