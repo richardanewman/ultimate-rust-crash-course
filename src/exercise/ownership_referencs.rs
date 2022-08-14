@@ -45,7 +45,9 @@ fn inspect(s: &String) {
 }
 
 fn change(s: &mut String) {
-    s.push_str("s");
+    if s.ends_with("s") {
+        s.push_str("s");
+    }
 }
 
 fn eat(s: String) -> bool {
