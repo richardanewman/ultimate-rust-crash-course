@@ -1,3 +1,4 @@
+pub mod collections_enums;
 pub mod control_flow_strings;
 pub mod functions;
 pub mod ownership_referencs;
