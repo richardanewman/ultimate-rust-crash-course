@@ -1,3 +1,4 @@
+pub mod closures_threads;
 pub mod collections_enums;
 pub mod control_flow_strings;
 pub mod functions;
